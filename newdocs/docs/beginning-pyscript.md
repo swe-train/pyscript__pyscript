@@ -125,7 +125,7 @@ like:
 This fragment of HTML contains the application's header (`<h1>`), some
 instructions between the `<p>` tags, an `<input>` box for the English text, and
 a `<button>` to click to generate the translation. Towards the end there's a
-`<div id="output">` which will contain the resulting Pirate speak as the
+`<div id="output">` which will contain the resulting pirate speak as the
 application's output.
 
 There's something strange about the `<button>` tag: it has a `py-click`
@@ -207,9 +207,9 @@ That's it!
 
 ### PyScript.com
 
-If you're using [pyscript.com](pyscript.com), you should save all your file and
-click the "run" button. Assuming you've copied the code properly, you should
-have a fine old time translating English to Pirate-ish. To 
+If you're using [pyscript.com](pyscript.com), you should save all your files
+and click the "run" button. Assuming you've copied the code properly, you
+should have a fine old time translating English to Pirate-ish.
 
 Alternatively, [click here to see a working example of this app](https://ntoll.pyscriptapps.com/piratical/latest/).
 Notice that the bottom right hand corner contains a link to view the code on
@@ -222,14 +222,16 @@ and `main.py`) in the same directory on a static web server somewhere.
 
 Clearly, we recommend you use [pyscript.com](pyscript.com) for this, but any
 static web host will do (for example,
-[GitHub pages](https://pages.github.com/),
+[GitHub Pages](https://pages.github.com/),
 [Amazon's S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html),
 [Google Cloud](https://cloud.google.com/storage/docs/hosting-static-website) or
 [Microsoft's Azure](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website)).
 
 ## Conclusion
 
-Congratulations! You have just created your first PyScript app, and understand
+Congratulations!
+
+You have just created your first PyScript app, and understand
 the core concepts needed to build yet more interesting things of your own.
 
 PyScript is extremely powerful, and these beginner steps only just scratch the
