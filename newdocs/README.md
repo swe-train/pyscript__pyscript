@@ -6,22 +6,27 @@ and contribute to discussions around PyScript and related topics.
 ## Getting started
 
 Before you start contributing to the documentation, it's worthwhile to
-take a look at the general contributing guidelines for the PyScript project. You can find these guidelines here
+take a look at the general contributing guidelines for the PyScript project.
+You can find these guidelines here
 [Contributing Guidelines](https://github.com/pyscript/pyscript/blob/main/CONTRIBUTING.md)
 
 ### Setup
 
 The `docs` directory in the pyscript repository contains a
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) documentation project. Material is a system
-that takes plaintext files containing documentation written in Markdown, along with
-static files like templates and themes, to build the static end result.
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+documentation project. Material is a system that takes plaintext files
+containing documentation written in Markdown, along with static files like
+templates and themes, to build the static end result.
 
-To setup the documentation development environment simply run `make setup` from this folder and, once it's done,
-activate your environment by running `conda activate ./_env`
+You have two options to setup the documentation development environment:
+
+1. If you're a `conda` user, simply run `make setup` from this folder and, once
+   it's done, activate your environment by running `conda activate ./_env`
+2. Create a virtual environment and `pip install mkdocs-material`.
 
 ### Build
 
-Simply run `mkdocs serve`
+Simply run `mkdocs serve` from the root of the docs.
 
 ## Cross-referencing
 
@@ -43,4 +48,4 @@ You can also cross-reference functions, methods or data attributes by using the 
 {py:func}`repr`
 ```
 
-This would link to the `repr` function in the python builtins.
+This would link to the `repr` function in the Python builtins.
