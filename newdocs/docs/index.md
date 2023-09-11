@@ -4,7 +4,7 @@
 
 ## PyScript is...
 
-* **Easy**: your apps run in the browser with so complicated installation
+* **Easy**: your apps run in the browser with no complicated installation
   required.
 * **Expressive**: create apps with a powerful, popular and easy to learn
   language like Python.
