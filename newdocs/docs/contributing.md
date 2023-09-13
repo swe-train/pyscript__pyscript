@@ -4,7 +4,7 @@ Thank you for wanting to contribute to the PyScript project!
 
 ## Code of conduct
 
-The [PyScript Code of Conduct](/conduct.md) governs the project and everyone
+The [PyScript Code of Conduct](/conduct) governs the project and everyone
 participating in it. By participating, you are expected to uphold this code.
 Please report unacceptable behavior to the maintainers or administrators as
 described in that document.
@@ -123,9 +123,9 @@ git pull upstream main
 
 PyScrcipt welcomes contributions, suggestions, and feedback. All contributions,
 suggestions, and feedback you submitted are accepted under the
-[Apache 2.0](./license.md) license. You represent that if you do not own
+[Apache 2.0](/license) license. You represent that if you do not own
 copyright in the code that you have the authority to submit it under the
-[Apache 2.0](./license.md) license. All feedback, suggestions, or contributions
+[Apache 2.0](/license) license. All feedback, suggestions, or contributions
 are not confidential.
 
 ### Becoming a maintainer
